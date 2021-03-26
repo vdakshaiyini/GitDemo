@@ -7,7 +7,7 @@ public class UploadTestDemo {
 	@Test
 	public void uploadTest()
 	{
-		
+		String url = "";
 	}
 	 
 }
