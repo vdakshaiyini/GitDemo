@@ -1,4 +1,6 @@
+
 package resources;
+
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -21,6 +23,7 @@ public class Base {
 		prop.load(fis);
 		String browserName = prop.getProperty("browserName");
 		String url= prop.getProperty("url");
+		
 		if(browserName.equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\LENOVO\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
